@@ -5,11 +5,9 @@ import "./navStyles/nav.css";
 
 const Nav = () => {
   return (
-    <div>
-      <div className="nav">
-        <TopNav />
-        <Navlinks />
-      </div>
+    <div className="nav">
+      <TopNav />
+      <Navlinks />
     </div>
   );
 };

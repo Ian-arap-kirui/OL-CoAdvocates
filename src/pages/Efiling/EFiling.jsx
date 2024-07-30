@@ -1,12 +1,12 @@
 import React from "react";
 import Hero from "../../sections/Hero/Hero";
 
-const AboutUs = () => {
+const EFiling = () => {
   return (
     <>
-      <Hero page="About Us" />
+      <Hero page={"E filing"} />
     </>
   );
 };
 
-export default AboutUs;
+export default EFiling;

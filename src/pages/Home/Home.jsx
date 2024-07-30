@@ -4,10 +4,10 @@ import Hero from "../../sections/Hero/Hero";
 
 const Home = () => {
   return (
-    <div>
+    <>
       {" "}
-      <Hero />
-    </div>
+      <Hero page="home" />
+    </>
   );
 };
 
