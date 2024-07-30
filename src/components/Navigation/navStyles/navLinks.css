@@ -1,0 +1,50 @@
+.navLinks {
+  border-top: 1px solid #4e555f;
+  border-bottom: 1px solid #4e555f;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 25px;
+  padding-bottom: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.linkList {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+.linkList > a {
+  color: var(--white);
+}
+.linkList > a.active {
+  color: var(--primary-color);
+}
+.contactList {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.contactList > div {
+  display: flex;
+  flex-direction: column;
+}
+.contact > span,
+.mail > span {
+  color: var(--primary-color);
+}
+.contact > a,
+.mail > a {
+  margin: 0;
+  color: var(--white);
+}
+.contact > a:hover,
+.mail > a:hover {
+  margin: 0;
+  color: var(--primary-color);
+  transition: 1s ease-in-out;
+}

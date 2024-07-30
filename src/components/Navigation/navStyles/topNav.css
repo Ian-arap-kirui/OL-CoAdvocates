@@ -1,0 +1,20 @@
+.topNav {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.headerButton {
+  color: var(--white);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
+  margin: 0;
+  transition: border-color 0.2s, background-color 0.2s, color 0.2s;
+}
+
+.headerButton:hover {
+  border-color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
