@@ -1,2 +1,62 @@
 .userCard {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.userName {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.userName > img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 50%;
+  object-fit: cover;
+  background: white;
+}
+.userName > h3 {
+  font-size: 40px;
+}
+.userCardDetails {
+  display: flex;
+  justify-content: space-between;
+}
+.userSuccessRate {
+  background-color: var(--black-background);
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 15px;
+  padding: 30px 50px;
+  display: flex;
+  width: 40%;
+  height: 70px;
+  gap: 25px;
+}
+.userExperience {
+  width: 40%;
+  height: 70px;
+  background-color: var(--primary-color);
+  align-items: center;
+  margin-left: 15px;
+  padding: 30px 50px;
+  display: flex;
+}
+.experience {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: black;
+}
+.briefcaseIcon {
+  width: 58px;
+  height: 56px;
+  color: var(--primary-color);
+}
+.experience > span {
+  background-color: var(--dark-black);
+  color: var(--white);
+  border-radius: 5px;
+  padding: 15px;
 }

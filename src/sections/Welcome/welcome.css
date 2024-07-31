@@ -1,0 +1,30 @@
+.welcomeIntro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 140px 0;
+}
+.leftWelcomeIntro {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 30%;
+}
+.leftWelcomeIntro > img {
+  width: 470px;
+  height: 300px;
+  object-fit: cover;
+}
+.rightWelcomeIntro {
+  width: 40%;
+}
+.rightWelcomeIntro > p {
+  width: 80%;
+}
+.rightWelcomeTextArea {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import "./userCard.css";
 import dummyProfilePic from "../../../assets/dummyProfPic.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 const UserCard = ({ name, successRate, experience }) => {
   return (
     <div className="userCard">
@@ -11,7 +12,12 @@ const UserCard = ({ name, successRate, experience }) => {
       </div>
       <div className="userCardDetails">
         <div className="userSuccessRate">
-          <FontAwesomeIcon />
+          <FontAwesomeIcon
+            icon={faBriefcase}
+            bounce
+            className="briefcaseIcon"
+            style={{ color: "#d1b06b" }}
+          />
           <div className="successRate">
             <p>
               {successRate} <br />
@@ -22,8 +28,9 @@ const UserCard = ({ name, successRate, experience }) => {
         <div className="userExperience">
           <FontAwesomeIcon />
           <div className="experience">
+            <span>{experience}+</span>
             <p>
-              {experience} Years <br />
+              Years <br />
               Experience
             </p>
           </div>
