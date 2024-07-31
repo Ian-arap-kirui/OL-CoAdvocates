@@ -1,8 +1,10 @@
 .welcomeIntro {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 140px 0;
+  margin: auto;
+  width: 80%;
 }
 .leftWelcomeIntro {
   display: flex;
@@ -16,7 +18,7 @@
   object-fit: cover;
 }
 .rightWelcomeIntro {
-  width: 40%;
+  width: 60%;
 }
 .rightWelcomeIntro > p {
   width: 80%;

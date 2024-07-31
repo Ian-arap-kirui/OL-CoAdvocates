@@ -1,0 +1,38 @@
+.practiceCard {
+  width: 25%;
+  min-height: auto;
+  padding: 55px 50px 70px;
+  background-color: var(--secondary-color);
+}
+.practiceCardText {
+  border-bottom: 1px solid var(--light-border-color);
+  margin-bottom: 38px;
+  padding-bottom: 20px;
+}
+.practiceCardText > a {
+  font-size: 35px;
+  font-weight: 500;
+}
+.practiceBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.practiceBtn {
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: rgb(22, 29, 39);
+  color: rgb(255, 255, 255);
+  border: none;
+}
+.practiceIcon {
+  width: 53px;
+  height: 50px;
+}
+.practiceCard:hover .practiceBtn {
+  padding: 20px 40px;
+  color: black;
+  transition: 0.8s ease-in-out;
+  background-color: var(--primary-color);
+}

@@ -1,0 +1,30 @@
+.practices {
+  background-color: var(--dark-black);
+  padding-top: 100px;
+  padding-bottom: 80px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fa-flip {
+  animation-duration: 3s;
+}
+.practicesHeader {
+  display: flex;
+  width: 80%;
+  margin-bottom: 45px;
+}
+.practicesHeading {
+  width: 60%;
+}
+.practicesHeader > p {
+  width: 50%;
+}
+.practicesCards {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}

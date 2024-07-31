@@ -12,7 +12,7 @@ const Hero = ({ page }) => {
         {page === "home" ? (
           <>
             <div className="heroTextArea">
-              <img src={corner1} alt="" />
+              <img src={corner1} alt="" loading="lazy" />
               <h1>We're Group Of Certified Law Professionals</h1>
               <p>
                 We have helped countless maritime workers and their families go
@@ -21,7 +21,7 @@ const Hero = ({ page }) => {
               <button className="button"> Get In Touch</button>
             </div>
             <div className="heroContentImage">
-              <img src="" alt="Onesmus Langat photo" />
+              <img src="" alt="Onesmus Langat photo" loading="lazy" />
             </div>
           </>
         ) : (

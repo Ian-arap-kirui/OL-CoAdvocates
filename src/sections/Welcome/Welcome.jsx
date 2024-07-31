@@ -8,8 +8,8 @@ const Welcome = () => {
   return (
     <div className="welcomeIntro">
       <div className="leftWelcomeIntro">
-        <img src={intro} alt="" />
-        <img src={intro1} alt="" />
+        <img src={intro} alt="" loading="lazy" />
+        <img src={intro1} alt="" loading="lazy" />
       </div>
       <div className="rightWelcomeIntro">
         <div className="rightWelcomeTextArea">
@@ -17,7 +17,12 @@ const Welcome = () => {
             Welcome to Onesmus Langat & <br />
             Co. Advocates
           </h2>
-          <img src={separator} style={{ height: "40px" }} alt="" />
+          <img
+            src={separator}
+            style={{ height: "40px" }}
+            alt=""
+            loading="lazy"
+          />
           <p>
             We are located in Kericho County, our maritime lawyers are proud to
             help the injured throughout the nation, including workers who were
