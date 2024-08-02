@@ -1,0 +1,41 @@
+.helpCard {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  background-color: #fbfbfb;
+}
+.helpCardWithBg {
+  width: 25%;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 15px;
+  color: black;
+  background: url(/src/assets/intro1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.helpCardWithBg > div > h4 {
+  color: white;
+}
+.helpMetrics {
+  width: 100px;
+  height: 100px;
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.helpCardText > h4 {
+  color: var(--secondary-color);
+  font-family: Cormorant Garamond, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.helpCardText > p {
+  color: var(--bright-paragraph-color);
+}

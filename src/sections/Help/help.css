@@ -1,0 +1,21 @@
+.helpSection {
+  text-align: center;
+  background-color: white;
+}
+.helpHeader {
+  padding: 5em 0 2em;
+}
+.helpCards {
+  border-bottom: 1px solid #d7d7d7;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+.helpHeader > h2 {
+  color: black;
+}
+.helpHeader > p {
+  color: var(--bright-paragraph-color);
+}

@@ -1,0 +1,22 @@
+.partners {
+  background-color: white;
+  color: black;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em 0;
+}
+.partnersHeader {
+  display: flex;
+  margin: 2em 0 3em;
+}
+.partnersHeader > h2 {
+  color: black;
+}
+.partnersContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
