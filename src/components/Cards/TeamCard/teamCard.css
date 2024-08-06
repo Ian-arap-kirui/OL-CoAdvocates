@@ -1,0 +1,15 @@
+.teamCard {
+  color: black;
+  background-color: white;
+  position: absolute;
+  bottom: -10%;
+  left: 10%;
+  text-align: center;
+  width: 80%;
+}
+.teamCardText > h3 {
+  color: black;
+}
+.teamCardText > p {
+  color: var(--primary-color);
+}

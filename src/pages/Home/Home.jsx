@@ -7,6 +7,7 @@ import Help from "../../sections/Help/Help";
 import Partners from "../../sections/Partners/Partners";
 import History from "../../sections/History/History";
 import Testimonials from "../../sections/testimonials/Testimonials";
+import Team from "../../sections/Team/Team";
 
 const Home = () => {
   let page = "home";
@@ -20,6 +21,7 @@ const Home = () => {
       <Partners page={page} />
       <History page={page} />
       <Testimonials page={page} />
+      <Team page={page} />
     </>
   );
 };
