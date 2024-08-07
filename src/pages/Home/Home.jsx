@@ -10,6 +10,8 @@ import Testimonials from "../../sections/testimonials/Testimonials";
 import Team from "../../sections/Team/Team";
 import Consultation from "../../sections/Consultation/Consultation";
 import ContactSection from "../../sections/ContactSection/ContactSection";
+import RecentBlogs from "../../sections/RecentBlogs/RecentBlogs";
+import { Blogs } from "../../utils/data";
 
 const Home = () => {
   let page = "home";
@@ -26,6 +28,7 @@ const Home = () => {
       <Team page={page} />
       <Consultation page={page} />
       <ContactSection page={page} />
+      <RecentBlogs page={page} blogs={Blogs} />
     </>
   );
 };
