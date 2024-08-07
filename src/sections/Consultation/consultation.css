@@ -1,0 +1,32 @@
+.consultation {
+  display: flex;
+  padding: 40px;
+}
+.consultationWrapper {
+  display: flex;
+  margin: 3em auto;
+  width: 85%;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.consultationLeft {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.consultationHeader > h2 {
+  font-size: 45px;
+}
+.consultationLeftBody > p {
+  font-size: 20px;
+}
+.consultationRight {
+  display: flex;
+  justify-content: center;
+}
+.consultationBtn {
+  margin-top: 40px;
+  width: 25%;
+}

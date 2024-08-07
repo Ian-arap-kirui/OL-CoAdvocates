@@ -1,0 +1,42 @@
+.consultationCard {
+  background-color: white;
+  color: black;
+  padding: 50px;
+  width: 60%;
+  font-family: "Outfit";
+  height: 100%;
+}
+.consultationCardWrapper {
+  padding: 40px;
+  border: 15px solid var(--paragraph-color);
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+.consultationCardWrapper > h3 {
+  color: black;
+}
+.consultationCardWrapper > p,
+h3 {
+  margin: 0;
+}
+.consultationCardContact {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  gap: 20px;
+  margin-top: 30px;
+}
+.consultationCardContact > img {
+  padding: 20px;
+  background-color: var(--primary-color);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.consultationCardText > p {
+  margin: 0;
+}
+.consultationCardText > a:hover {
+  color: black;
+}

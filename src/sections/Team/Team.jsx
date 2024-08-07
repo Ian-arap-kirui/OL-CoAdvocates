@@ -29,7 +29,7 @@ const Team = () => {
       <div className="teamWrapper">
         <div className="teamHeader">
           <h3>
-            Our Experienced Attorney Are Ready <br />
+            Our Experienced Team Is Ready <br />
             To answer any questions
           </h3>
           <img src={separator1} alt="" />
