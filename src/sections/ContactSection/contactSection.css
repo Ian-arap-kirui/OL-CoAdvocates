@@ -1,0 +1,8 @@
+.contactSection {
+  display: flex;
+  padding: 4em;
+  background-image: url("../../assets/hero.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

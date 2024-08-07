@@ -9,6 +9,7 @@ import History from "../../sections/History/History";
 import Testimonials from "../../sections/testimonials/Testimonials";
 import Team from "../../sections/Team/Team";
 import Consultation from "../../sections/Consultation/Consultation";
+import ContactSection from "../../sections/ContactSection/ContactSection";
 
 const Home = () => {
   let page = "home";
@@ -24,6 +25,7 @@ const Home = () => {
       <Testimonials page={page} />
       <Team page={page} />
       <Consultation page={page} />
+      <ContactSection page={page} />
     </>
   );
 };

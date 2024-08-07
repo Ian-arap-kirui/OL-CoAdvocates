@@ -1,0 +1,77 @@
+.contactForm {
+  background-color: var(--secondary-color);
+  padding: 100px;
+  border-radius: 5px;
+  width: 85%;
+  margin: 0 auto;
+  color: white;
+}
+
+.formGroup {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+.innerTopFormGroup {
+  display: flex;
+  gap: 20px;
+}
+.innerBottomFormGroup {
+  gap: 20px;
+  display: flex;
+}
+.formGroup input,
+.formGroup textarea {
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: black black var(--black-background);
+  color: var(--paragraph-color);
+  text-align: left;
+  background-color: transparent;
+  padding-bottom: 25px;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: Outfit, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  border-color: #3898ec;
+  outline: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+.contactFormWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contactFormWrapper > button {
+  border: 1px solid var(--white);
+  background-color: var(--white);
+  color: var(--secondary-color);
+  align-self: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 24px 50px;
+  font-family: Outfit, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.contactFormWrapper > button:hover {
+  color: var(--white);
+  background-color: transparent;
+}
